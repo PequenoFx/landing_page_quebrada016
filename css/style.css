@@ -1,0 +1,810 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+header{
+    z-index: 999;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.center{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*MENU COMEÇO*/
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+
+.logo{
+    margin: 20px;
+    width: 50%;
+    text-align: left;
+    font-size: 36px;
+    font-family: Old English Text MT;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+nav.menu-desktop{
+    padding-top: 20px;
+    width: 50%;
+    text-align: right;
+    margin: 20px;
+}
+
+nav.menu-desktop ul{
+    text-align: right;
+    list-style-type: none;
+}
+
+nav.menu-desktop ul li{
+    display: inline-block;
+}
+
+nav.menu-desktop ul li a{
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 12px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+nav.menu-desktop li:first-child a{
+    color: #FF3F00;
+}
+
+nav.menu-desktop ul li a:hover{
+    color: #FF3F00;
+}
+
+.menu-mobile{
+    position: absolute;
+    display: none;
+    width: 100%;
+    margin-top: 86px;
+    text-align: right;
+}
+
+.menu-mobile ul{
+    position: relative;
+    height: 100vh;
+    text-align: center;
+    border-left: 5px solid #FF3F00;
+    background-color: rgba(255, 255, 255, 0.932);
+    display: inline-block;
+    list-style: none;
+}
+
+.menu-mobile ul li{
+    padding: 10px 10px;
+    position: relative;
+    border-bottom: 1px solid #FF3F00;
+    line-height: 30px;
+    font-family: 'roboto';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu-mobile ul li:hover{
+    background-color: #FF3F00;
+}
+
+.menu-mobile ul li a:hover{
+    color: white;
+}
+
+.menu-mobile ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu-icon{
+    display: none;
+    cursor: pointer;
+    width: 50%;
+    text-align: right;
+    margin: 25px 2%;
+}
+
+/*MENU FIM*/
+
+
+/*SEÇÃO CHAMADA*/
+
+section .center{
+    width: 100%;
+}
+
+section.bg-chamada{
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(../img/bg-oficial.jpg);
+}
+
+section .texto-centro{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.texto-centro h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: Colonna MT;
+}
+
+.texto-centro img{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.box-span{
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.box-span a span{
+    position: relative;
+    width: 100%;
+    line-height: 50px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;  
+}
+
+.box-span a{
+    color: black;
+    text-decoration: none;
+}
+
+.box-span span:hover{
+    background-color: white;
+}
+
+.box-span span:hover{
+    color: #FF3F00;
+}
+
+/*SEÇÃO CHAMADA FIM*/
+
+
+/*SEÇÃO VENDAS DESTAQUE*/
+
+.vendas{
+    margin-top: 50px;
+}
+
+.vendas .center{
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 2%;
+}
+
+.line-vendas{
+    width: 100%;
+}
+
+.line-vendas h2{
+    font-family: 'roboto';
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+.line{
+    margin: 20px auto;
+    max-width: 900px;
+    width: 100%;
+    height: 1px;
+    background-color: #FF3F00;
+}
+
+.vendas-container{
+    width: 100%;
+    background-color: #F6F3EF;
+}
+
+.flex-venda{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-single{
+    width: 25%;
+    padding: 0 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.item-single img{
+    width: 100%;
+    height: 330px;
+    margin-top: 30px;
+}
+
+.item-single h3, span{
+    width: 100%;
+    font-size: 16px;
+    font-family: 'roboto';  
+}
+
+.item-single span{
+    font-style: italic;
+    color: #FF3F00;
+}
+
+.btn-ver-mais{
+    margin: 10px auto;
+    max-width: 200px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #FF3F00;
+    background-color: white;
+}
+
+.btn-ver-mais a{
+    text-decoration: none;
+}
+
+.btn-ver-mais a span{
+    cursor: pointer;
+    line-height: 60px;
+    font-size: 17px;
+    color: #FF3F00;
+}
+
+.btn-ver-mais:hover{
+    background-color: #F6F3EF;
+}
+
+.btn-ver-mais span:hover{
+    opacity: .7;
+}
+
+/*SEÇÃO VENDAS DESTAQUE FIM*/
+
+/*NOSSA EQUIPE*/
+
+section.equipe .center{
+    padding: 0 2%;
+    width: 100%;
+}
+
+.fundo-color{
+    width: 100%;
+    padding-bottom: 10px;
+    background-color: #F6F3EF;
+}
+
+section .titulo-equipe h2{
+    margin-top: 140px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'roboto';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.titulo-equipe .line-equipe{
+    margin: 10px auto;
+    max-width: 400px;
+    width: 100%;
+    height: 1px;
+    background-color: #FF3F00;
+}
+
+.loja-wraper{
+    padding-top: 10px;
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.loja-desc{
+    width: 50%;
+}
+
+.loja-desc h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'roboto';
+    font-weight: normal;
+}
+
+.line-loja{
+    margin: 10px auto;
+    max-width: 110px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.loja-desc p{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: Monotype Corsiva;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.bg-wraper{
+    width: 50%;
+    max-width: 640px;
+    height: 340px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-image: url(../img/bg.jpg);
+}
+
+.equipe-wraper{
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.equipe-desc{
+    width: 50%;
+}
+
+.equipe-desc h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'roboto';
+    font-weight: normal;
+}
+
+.line-equipe{
+    margin: 10px auto;
+    max-width: 150px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.equipe-desc p{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-family: Monotype Corsiva;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.bg-wraper-equipe{
+    width: 50%;
+    max-width: 640px;
+    height: 340px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-image: url(../img/EQUIPE.jpg);
+}
+
+/*NOSSA EQUIPE FIM*/
+
+/*COMENTARIOS começo*/
+
+section.depoimentos{
+    margin-bottom: 100px;
+}
+
+section.depoimentos > h2{
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(44, 44, 44);
+    font-family: 'roboto';
+    text-align: center;
+}
+
+section.depoimentos .container{
+    padding: 40px 0;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section.depoimentos  .depoimento-sigle{
+    text-align: center;
+    width: 100%;
+    padding: 0 10%;
+}
+
+.depoimento-sigle quote{
+    font-size: 17px;
+    font-family: 'roboto';
+    color: #b4b4b4
+}
+
+.depoimento-sigle .nome-depoimento{
+    padding: 20px 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.nome-depoimento img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nome-depoimento span{
+    color: #FF3F00;
+    margin: 14px;
+    width: 130px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'roboto';
+}
+
+/*COMENTARIOS*/
+
+/*ESTILO SLICK DOTS*/
+.slick-dotted ul{
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.slick-dotted li{
+    display: inline-block;
+    margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+    outline: 0;
+}
+
+.slick-dotted li button{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    color: #d8d8d8;
+    border-width: 0;
+    background: #d8d8d8;
+    opacity: 1;
+    cursor: pointer;
+}
+
+li.slick-active button{
+    background: #FF3F00;
+    color: #FF3F00;
+}
+
+.slick-slide:focus{
+    outline: none;
+}
+
+/*FIM SLICK DOTS*/
+
+/*CONTATO COMEÇO*/
+
+.contato .center{
+    width: 100%;
+    padding: 0 2%;
+}
+
+.line-contato{
+    margin: 10px auto;
+    max-width: 1000px;
+    width: 100%;
+    height: 2px;
+    background-color: #FF3F00;
+}
+
+.form h3{
+    max-width: 300px;
+    margin: 30px auto;
+    text-align: center;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'roboto';
+}
+
+form{
+    margin: 0 auto;
+    max-width: 300px;
+    margin-top: 60px;
+}
+
+form input[type=email]{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #FF3F00;
+    font-size: 17px;
+    padding-left: 10px;
+    font-family: 'roboto';
+    font-style: italic;
+    color: #CCCCCC;
+    outline: none;
+}
+
+form input[type=submit]{
+    transform: translateX(50%);
+    cursor: pointer;
+    border: 0;
+    font-size: 17px;
+    color: #FF3F00;
+    border: 1px solid #FF3F00;
+    background-color: white;
+    max-width: 150px;
+    width: 100%;
+    margin: 20px auto;
+    height: 40px;
+}
+
+form input[type=submit]:hover{
+    background-color: #FF3F00;
+    color: white;
+}
+
+.social{
+    margin-top: 10px;
+    position: absolute;
+}
+
+.insta,.whats,.face{
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    width: 240px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/bg-social.fw.png);
+}
+
+.social i{
+    padding-right: 10px;
+}
+
+.face a{
+    text-decoration: none;
+    color: black;
+    line-height: 15px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.whats a{
+    text-decoration: none;
+    color: black;
+    line-height: 15px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.insta a{
+    text-decoration: none;
+    color: black;
+    line-height: 15px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.social img{
+    top: 2px;
+    position: relative;
+    width: 15px;
+    height: 15px;
+}
+
+/*CONTATO FIM*/
+
+/*FOOTER COMEÇO*/
+
+footer .social-footer{
+    display: flex;
+    width: 100%;
+    background-color: #F6F3EF;
+}
+
+.logo-social, .endereco{
+    width: 50%;
+    padding: 20px 30px;
+}
+
+.logo-social .lg{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Old English Text MT;
+}
+
+.logo-social .lg a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-social a img{
+    margin: 10px 10px;
+    width: 18px;
+    height: 18px;
+    text-decoration: none;
+}
+
+.endereco p{
+    margin-top: 10px;
+    text-align: right;
+    font-size: 12px;
+    font-family: 'roboto';
+    font-style: italic;
+    font-weight: bold;
+}
+
+.endereco span{
+    font-size: 12px;
+    color: rgb(57, 4, 107);
+}
+
+.endereco a{
+    text-decoration: none;
+    color: black;
+}
+
+.horarios{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.horarios h2, p{
+    margin-top: 25px;
+    font-size: 14px;
+    font-family: 'roboto';
+}
+
+/*FOOTER FIM*/
+
+/*RESPONSIVO*/
+
+@media screen and (max-width: 1024px){
+    .menu-desktop{
+        display: none;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .menu-mobile{
+        display: block;
+    }
+
+    .loja-wraper{
+        display: block;
+    }
+
+    .loja-desc{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .bg-wraper{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .equipe-wraper{
+        display: block;
+    }
+
+    .equipe-desc{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .bg-wraper-equipe{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (max-width:940px){
+    .social{
+        width: 100%;
+        max-width: 240px;
+        margin: 0 auto;
+        position:static;
+    }
+
+    footer .social-footer{
+        display: block;
+        width: 100%;
+    }
+    .logo-social, .endereco{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .endereco p{
+        text-align: center;
+    }
+
+    .logo-social a i{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .texto-centro h2{
+        margin-top: 100px;
+        font-size: 25px;
+    }
+
+    .box-span{
+        margin-top: 50px;
+        width: 50%;
+    }
+
+    .btn-ver-mais{
+        max-width: 100px;
+        width: 100%;
+        height: 30px;
+    }
+
+    .btn-ver-mais a span{
+        line-height: 30px
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .bg-wraper{
+        margin-top: -50px;
+        max-height: 300px;
+    }
+
+    .bg-wraper-equipe{
+        max-height: 200px;
+    }
+
+    .equipe-wraper{
+        margin-top: -10px;
+    }
+}
+
+/*RESPONSIVO FIM*/
