@@ -4,7 +4,7 @@ Landing page para o publico conhecer a Quebrada016 loja de moda masculina de SP
 
 ## 🚀 Landing Page
 
-<img src="assents/"
+<img src="assents/pagina.png"/>
 
 ## 🛠️ Construído com
 
