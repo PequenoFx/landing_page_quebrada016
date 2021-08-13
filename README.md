@@ -22,7 +22,7 @@ Landing page para o publico conhecer a Quebrada016 loja de moda masculina de SP
 
 ## 🎁 Considerações finais
 
-* Aprendi muito com esse projeto, sempre buscando evolução cada dia mais 📢
+* Aprendi muito com esse projeto, sempre buscando evolução cada dia mais!! 📢
 
 
 ---
